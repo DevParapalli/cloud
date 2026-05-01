@@ -38,5 +38,8 @@ terraform.rc
 
 # Ignore .pk files
 *.pk
+*.key
+# Certificates
+*.pem
 # Ignore .env files for local testing
 .env

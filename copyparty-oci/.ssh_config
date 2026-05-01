@@ -1,0 +1,19 @@
+
+# Admin User
+Host ss-admin
+  HostName scm.parapalli.dev
+  Port 23231
+  IdentityFile oci_key.pk
+  User admin
+
+# Default User
+Host scm.parapalli.dev
+  Port 23231
+  IdentityFile asdfghbjnkml_key.pk
+
+# Specific User
+Host ss-asdfghbjnkml
+  HostName scm.parapalli.dev
+  Port 23231
+  IdentityFile asdfghbjnkml_key.pk
+  User asdfghbjnkml
